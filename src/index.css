@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #cdd6f4;
+  background-color: #1e1e2e;
+}
+
+
+body {
+  margin: 0;
+  place-items: top;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color:#bac2de;
+}
+
+a:hover {
+  color: #a6adc8;
+}

@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.time {
+  color: #cba6f7;
+}
+
+.icon {
+  padding-right: 1rem;
+  font-size: 3rem;
+}
+
+.weather {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  background-color: #cdd6f4;
+  border: 1px solid #bac2de;
+  color: #11111b;
+  border-radius: 10px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 1%;
+}
+
+.card {
+  background-color: #313244;
+  border: 1px solid #45475a;
+  border-radius: 10px;
+  list-style-type: none;
+  text-align: start;
+  padding: 50px;
+}
+
+.sc, .ut, .ot, .me {
+  grid-row: 2 /2;
+  transition: 0.5s;
+}
+
+.sc:hover {
+  border-color: #f38ba8;
+}
+
+.ut:hover {
+  border-color: #a6e3a1;
+}
+
+
+.me:hover {
+  border-color: #f9e2af;
+}
+
+.ot:hover {
+  border-color: #89b4fa;
+}
