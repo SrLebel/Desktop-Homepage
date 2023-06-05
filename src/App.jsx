@@ -5,7 +5,6 @@ import Weather from './module/weather'
 
 
 function App() {
-
   return (
     <>
       <Weather/>

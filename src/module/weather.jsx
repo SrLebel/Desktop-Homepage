@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 let city = "Cali";
 
-const url = `https://goweather.herokuapp.com/weather/${city}`;
+const url = `https://wttr.in/Cali?format=j1`;
 
 
 const Api = () => {
@@ -14,7 +14,7 @@ const Api = () => {
       try {
         const response = await fetch(url);
         const data = await response.json();
-        setTemperature(data.temperature);
+        setTemperature(data.current_condition[0].temp_C);
       } catch (error) {
         console.error('Error:', error);
       }
@@ -27,7 +27,7 @@ const Api = () => {
     <div className="weather">
       <WiDayCloudyHigh className="icon"/>
       {temperature ? (
-        <p>{temperature}</p>
+        <p>{temperature} C</p>
       ) : (
         <p>Cargando</p>
       )}
