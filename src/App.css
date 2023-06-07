@@ -28,6 +28,22 @@
   font-size: 1.5rem;
 }
 
+.pokemon {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  background-color: #cdd6f4;
+  border: 1px solid #bac2de;
+  color: #11111b;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 450;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto auto auto;

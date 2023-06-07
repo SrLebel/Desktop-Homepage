@@ -7,7 +7,7 @@ const School = [
 
 const Util = [
     {name: "GitHub", anchor:"https://github.com/"},
-    {name: "Archlinux", anchor:"https://archlinux.org/"},
+    {name: "ArchLinux Docs", anchor:"https://archlinux.org/"},
     {name: "W3Schools", anchor: "https://www.w3schools.com/"},
     {name: "HackerRank", anchor: "https://www.hackerrank.com/"}
 ];

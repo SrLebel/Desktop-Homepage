@@ -1,8 +1,6 @@
 import {WiDayCloudyHigh} from "react-icons/wi"
 import { useState, useEffect } from 'react';
 
-let city = "Cali";
-
 const url = `https://wttr.in/Cali?format=j1`;
 
 
@@ -27,7 +25,7 @@ const Api = () => {
     <div className="weather">
       <WiDayCloudyHigh className="icon"/>
       {temperature ? (
-        <p>{temperature} C</p>
+        <p>{temperature} °C</p>
       ) : (
         <p>Cargando</p>
       )}
