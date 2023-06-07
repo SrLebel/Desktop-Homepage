@@ -1,13 +1,8 @@
 import { useEffect, useState } from "react";
 import {TbPokeballOff} from "react-icons/tb";
 
-function getRandomInt () {
-  return Math.floor(Math.random() * (1010 - 1 + 1)) + 1;
-}
-
 function getPokemon(){
-  let number = getRandomInt();
-  console.log
+  let number = Math.floor(Math.random() * (1010 - 1 + 1)) + 1;
   return `https://pokeapi.co/api/v2/pokemon/${number}`;
 }
 

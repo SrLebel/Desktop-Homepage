@@ -20,7 +20,7 @@ const Media = [
 ];
 
 const Other = [
-    {name: "Reddit", anchor: "https://www.reddit.com/"},
+    {name: "ChatGPT", anchor: "https://chat.openai.com/"},
     {name: "Twitter", anchor: "https://twitter.com/"},
     {name: "MonkeyType", anchor: "https://monkeytype.com/"},
     {name: "MyAnimeList", anchor: "https://myanimelist.net/"},
@@ -35,6 +35,8 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
+            target="_blank"
+            rel="noopener noreferrer"
           >{info.name}</a>
           </li>
         ))}
@@ -45,6 +47,8 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
+            target="_blank"
+            rel="noopener noreferrer"
           >{info.name}</a>
           </li>
         ))}
@@ -55,6 +59,8 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
+            target="_blank"
+            rel="noopener noreferrer"
           >{info.name}</a>
           </li>
         ))}
@@ -65,6 +71,8 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
+            target="_blank"
+            rel="noopener noreferrer"
           >{info.name}</a>
           </li>
         ))}
