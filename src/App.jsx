@@ -3,6 +3,7 @@ import Clock from './module/time'
 import Data from './module/data'
 import Weather from './module/weather'
 import Pokemon from './module/pokemon'
+import SearchBar from './module/searchbar'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <h1> Welcome!</h1>
       <Clock/>
       <Data/>
+      <SearchBar/>
     </>
   )
 }

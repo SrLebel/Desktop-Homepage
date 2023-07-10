@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 const url = `https://wttr.in/Cali?format=j1`;
 
 
-const Api = () => {
+const Weather = () => {
   const [temperature, setTemperature] = useState(null);
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const Api = () => {
   );
 };
 
-export default Api;
+export default Weather;

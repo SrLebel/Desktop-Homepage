@@ -35,7 +35,6 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
-            target="_blank"
             rel="noopener noreferrer"
           >{info.name}</a>
           </li>
@@ -47,7 +46,6 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
-            target="_blank"
             rel="noopener noreferrer"
           >{info.name}</a>
           </li>
@@ -59,7 +57,6 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
-            target="_blank"
             rel="noopener noreferrer"
           >{info.name}</a>
           </li>
@@ -71,7 +68,6 @@ export default function Data (){
           <li key={info.name}>
           <a
             href={info.anchor}
-            target="_blank"
             rel="noopener noreferrer"
           >{info.name}</a>
           </li>

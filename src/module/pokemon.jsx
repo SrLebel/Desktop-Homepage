@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import {TbPokeballOff} from "react-icons/tb";
+import { TbPokeballOff } from "react-icons/tb";
 
 function getPokemon(){
   let number = Math.floor(Math.random() * (1010 - 1 + 1)) + 1;
